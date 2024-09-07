@@ -1,0 +1,78 @@
+resume:
+  skills:
+    certifications:
+      - AWS Cloud Practitioner (exp. 06/26)
+      - dbt Certified Analytics Engineer (exp. 05/26)
+      - Snowflake SnowPro Core (exp. 02/26)
+    languages:
+      - Python
+      - SQL
+      - Terraform
+    tools:
+      - AWS Services
+      - Airflow
+      - dbt
+      - Snowflake
+      - Fivetran
+      - Looker
+      - Sigma
+  jobs:
+    - senior_data_engineer:
+        title: Senior Data Engineer
+        duration: Jan. 2024 - Present
+        company: AB CarVal
+        accomplishments:
+          - Saved $70K by developing a custom orchestration tool to trigger dbt job runs more efficiently.
+          - Designed and implemented custom security audit review process for user role assignments in Snowflake, Looker, and Sigma.
+    - data_engineer:
+        title: Data Engineer
+        duration: Dec. 2022 - Jan. 2024
+        company: AB CarVal
+        accomplishments:
+          - Saved $55K and reduced dbt job execution times by 20% by developing internal tools to monitor Snowflake compute and prescribe changes.
+          - Upgraded existing and developed new data pipelines in AWS, Fivetran, and Snowflake.
+          - Designed, implemented and maintained a custom role-based access control hierarchy in Snowflake to support development and reporting needs of over 100 users and service accounts
+    - senior_data_scientist:
+        title: Senior Data Scientist
+        duration: Mar. 2022 - Dec. 2022
+        company: Prime Trust
+        accomplishments:
+          - Helped increase MRR 3x from $400K to $1.2MM by performing EDA on internal product data.
+          - Deployed a Monte Carlo forecasting model to estimate probability ranges of future AUM and subsequent interest rate yield.
+          - Supervised 3 interns; created scope of work, guided professional development, and gave evaluative feedback.
+          - Developed a fullstack dashboarding solution to provide daily metrics and KPIs used by stakeholders across the company.
+    - data_engineer:
+        title: Data Engineer
+        duration: Oct. 2020 - Mar. 2022
+        company: Prime Trust
+        accomplishments:
+          - Saved over $1M by identifying human error billing mistakes and building an internal billing system to automate the process.
+          - Reduced runtimes by 95% in our daily data pipeline by implementing Delta Lakes & PySpark optimizations.
+          - Built automated ETL data pipelines to sync data from Netsuite, Salesforce, and Planful.
+    - security_intern:
+        title: Security Engineering Intern
+        duration: 2018, 2019
+        company: Cloudflare
+        accomplishments:
+          - Developed software rules in Golang to alert upon malicious activity for an internal SIEM pipeline.
+          - Created an interactive network diagram in order to maintain SOC 2 compliance.
+          - Established a baseline for automation of access reviews by standardizing the process.
+  projects:
+    - hotel_cancellations:
+        title: Predicting Hotel Cancellations
+        repository: github.com/rcohngru/hotel-cancellations
+        description: >
+          Built a two-part machine learning model to predict the probability of
+          a reservation cancellation and forecast future room demand. Deployed
+          the model in the form of an interactive dashboard using HTML and CSS
+          on the frontend and Flask, Python, Postgres, and Docker on the backend.
+          Technologies used: Python, SciKit-Learn, SQL, Docker, Postgres, Flask
+    - datathon:
+        title: 2020 Election Twitter Sentiment Analysis
+        repository: github.com/rcohngru/datathon
+        description: >
+          Determined how significant President Trump’s positive COVID-19 test
+          was on the 2020 general election using VADER sentiment analysis on a
+          dataset of tweets. Conducted four hypothesis tests in order to
+          conclude that this series of events did not have a long term impact
+          on the presidential race. Technologies used: Python, NLTK, Pandas, NumPy
