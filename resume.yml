@@ -46,7 +46,7 @@ resume:
         duration: Oct. 2020 - Mar. 2022
         company: Prime Trust
         accomplishments:
-          - Saved over $1M by identifying human error billing mistakes and building an internal billing system to automate the process.
+          - Identified over $1M in human error billing mistakes and helped build an internal billing system to automate the process.
           - Reduced runtimes by 95% in our daily data pipeline by implementing Delta Lakes & PySpark optimizations.
           - Built automated ETL data pipelines to sync data from Netsuite, Salesforce, and Planful.
     - security_intern:
